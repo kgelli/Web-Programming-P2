@@ -1,0 +1,272 @@
+
+
+legend:hover {
+    transform: scale(1.1);
+}
+legend img {
+    width: 150px;
+    height: 150px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 256px;
+}
+.final-img {
+    width: 150px;
+    height: 150px;
+}
+::placeholder {
+    color: white;
+}
+.start-style {
+    margin-top: 150px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+body {
+    margin: 0;
+}
+
+.button {
+    width: 85%;
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+    border-color: transparent;
+    border-radius: 10px;
+    background: #cfd4da53;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.button:hover {
+    background: rgba(41, 84, 134, 0.315);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 100px #f4f5f5,
+        0 0 100px #f6f7f7,
+        0 0 100px #e4e5e5,
+        0 0 100px #f9fbfb;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+label {
+    font-size: 3em;
+}
+
+.answer {
+    margin-left: 30px;
+}
+
+.answertext {
+    font-size: 1.5em;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(25%);
+    }
+}
+
+/*register.php*/
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom right,
+            #5dade2,
+            #7fb3d5,
+            #525599,
+            #7db6c6,
+            #0a315d);
+            
+}
+h1 {
+    width: 100%;
+   	font-size: 28px;
+	font-weight: bold;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(2px);
+	border-radius: 20px;
+	padding: 10px 20px;
+	color: white;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #fff;
+ 
+}
+
+/* Add this to your style.css file or include it in your HTML head */
+
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table header styling */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+text-align: center;
+margin-bottom: 2px;
+
+}
+
+/* Table row styling */
+th {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    color: #002D62;
+    font-family: sans-serif;
+    text-align: center;
+}
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Alternating row colors for better readability */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(246, 243, 243, 0.229);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.login-box fieldset {
+    border: 1px solid #fff;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.submit-box {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+    background: #fbfcfcdd;
+    font-size: 16px;
+    color: 14242e;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 5px;
+}
+
+
+.submit-box:hover {
+    background: rgba(41, 84, 134, 0.315);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 100px #f4f5f5,
+        0 0 100px #f6f7f7,
+        0 0 100px #e4e5e5,
+        0 0 100px #f9fbfb;
+}
+
+@keyframes appear {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        background-color: #14242e;
+    }
+
+    45% {
+        transform: translate(-50%, -50%) scale(1.6);
+        background-color: #19435f;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.7);
+        background-color: rgb(128, 144, 177);
+    }
+
+    55% {
+        transform: translate(-50%, -50%) scale(1.6);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        background-color: rgb(3, 28, 54);
+    }
+}

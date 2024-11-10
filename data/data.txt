@@ -1,0 +1,5 @@
+Gelli,100
+Kusal,0
+Manasa,1000000
+Mamatha,1000
+Sai,100000
